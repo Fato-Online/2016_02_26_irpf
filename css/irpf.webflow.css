@@ -1,0 +1,86 @@
+.sec-home {
+  background-image: -webkit-linear-gradient(270deg, #1204b6, #1204b6);
+  background-image: linear-gradient(180deg, #1204b6, #1204b6);
+}
+
+.titulo-home {
+  margin-bottom: 50px;
+  color: #fff;
+  font-size: 80px;
+  text-align: center;
+}
+
+.logo-home {
+  display: block;
+  margin: 50px auto;
+}
+
+.titulo-sec {
+  display: block;
+  margin: 50px auto;
+  font-size: 45px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.titulo-sec.titulo-branco {
+  color: #fff;
+}
+
+.arte-tabela {
+  display: block;
+  margin: 30px auto;
+  padding-top: 0px;
+}
+
+.sec-rascunho {
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), -webkit-linear-gradient(270deg, rgba(80, 76, 76, .38), rgba(80, 76, 76, .38));
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), linear-gradient(180deg, rgba(80, 76, 76, .38), rgba(80, 76, 76, .38));
+}
+
+.sec-cpf {
+  background-image: -webkit-linear-gradient(270deg, rgba(245, 10, 57, .9), rgba(245, 10, 57, .9));
+  background-image: linear-gradient(180deg, rgba(245, 10, 57, .9), rgba(245, 10, 57, .9));
+}
+
+.img-cpf {
+  position: relative;
+  left: 55px;
+  top: auto;
+  right: auto;
+  bottom: 55px;
+  z-index: 0;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.duas-colunas {
+  position: relative;
+  z-index: 2;
+}
+
+.sec-computador {
+  background-image: -webkit-linear-gradient(270deg, #fff, #fff);
+  background-image: linear-gradient(180deg, #fff, #fff);
+}
+
+.sec-entrevista {
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2));
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2));
+}
+
+.sec-malha {
+  background-image: -webkit-linear-gradient(270deg, #1204b6, #1204b6);
+  background-image: linear-gradient(180deg, #1204b6, #1204b6);
+}
+
+.sec-erros {
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2));
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2));
+}
+
+.sec-dicas {
+  background-image: -webkit-linear-gradient(270deg, rgba(245, 10, 57, .9), rgba(245, 10, 57, .9));
+  background-image: linear-gradient(180deg, rgba(245, 10, 57, .9), rgba(245, 10, 57, .9));
+}
