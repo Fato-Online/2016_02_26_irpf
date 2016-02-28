@@ -53,6 +53,16 @@ body, html{
 	color: #fff;
 }
 
+.videos {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.section-all.equipe {
+  background-color: #ececec;
+  text-align: center;
+}
+
 .thinglink{
 	margin-bottom: 20px;
 }
