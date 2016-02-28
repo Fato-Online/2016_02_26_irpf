@@ -1,6 +1,7 @@
 $(document).ready(function(){
 	$('.bxslider').bxSlider({
-  	adaptiveHeight: true
+  		adaptiveHeight: true,
+  		auto: true
 	});
 
 	$("#primeiro-passo").click(function() {

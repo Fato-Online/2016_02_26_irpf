@@ -35,8 +35,8 @@ body, html{
 
 .logo-home {
 	display: block;
-	margin: 50px auto;
-	width: 300px;
+	margin: 20px auto;
+	width: 200px;
 }
 
 .titulo-sec {
@@ -95,7 +95,8 @@ body, html{
 
 .devices{
 	margin: 0 auto;
-	width: 600px;
+	max-width: 600px;
+	width: 100%;
 }
 
 .sec-entrevista {
@@ -133,4 +134,45 @@ body, html{
 .bxslider p{
 	font-size: 20px;
 	margin-top: 10px;
+}
+
+.embed-sound{
+	width: 100%;
+}
+
+.bxtabela li{
+	padding: 0px !important;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+}
+
+/*TABLET*/
+@media (max-width: 991px) {
+
+}
+
+/*CELULAR PAISAGEM*/
+@media (max-width: 767px) {
+
+}
+
+/*CELULAR RETRATO*/
+@media (max-width: 479px) {
+	.titulo-home{
+		font-size: 40px;
+	}
+	.titulo-sec{
+		font-size: 20px;
+	}
+	.menu-home p{
+		font-size: 10px;
+	}
+
+	.bxslider h1{
+		font-size: 12px;
+	}
+
+	.bxslider p{
+		font-size: 11px;
+	}
 }
