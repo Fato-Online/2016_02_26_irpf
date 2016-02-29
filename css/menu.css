@@ -10,7 +10,7 @@
 }
 
 .menu-header {
-    top: -59px ;
+    top: -60px ;
     left: 0 ;
     z-index: 9999 ;
     width: 100% ;
@@ -95,4 +95,21 @@ a#menu-close {
     width: 39px;
     padding: 16px 4px 0px 16px;
     vertical-align: inherit;
+}
+
+/*CELULAR RETRATO*/
+@media (max-width: 479px) {
+    .menu-header {
+        top: -240px ;
+    }
+
+    #hotsite .bg-color {
+        height: auto !important;
+        text-align: left;
+        padding: 0px 20px
+    }
+
+    #hotsite li{
+        display: block;
+    }
 }
