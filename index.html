@@ -10,6 +10,7 @@
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="css/webflow.css">
 	<link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css">
+	<link rel="stylesheet" type="text/css" href="css/menu.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="css/irpf.webflow.css">
 	<script type="text/javascript" src="js/modernizr.js"></script>
@@ -18,7 +19,27 @@
 	<link rel="apple-touch-icon" href="https://daks2k3a4ib2z.cloudfront.net/img/webclip.png">
 </head>
 <body>
-
+<header class="menu-header" style="position: fixed !important">
+    <nav id="hotsite">
+        <div class="bg-color">
+            <div class="menu container">
+                <ul class="menu-items">
+                    <li id="home"><a href="http://fatoonline.com.br/" target="_blank" class="glyphicon glyphicon-home
+"></a></li>
+                    <li id="politica"><a href="http://fatoonline.com.br/editoria/politica" target="_blank">Política</a></li>
+                    <li id="economia"><a href="http://fatoonline.com.br/editoria/economia" target="_blank">Economia</a></li>
+                    <li id="brasilia"><a href="http://fatoonline.com.br/editoria/brasilia" target="_blank">Brasília</a></li>
+                    <li id="esporte"><a href="http://fatoonline.com.br/editoria/esportes" target="_blank">Esporte</a></li>
+                    <li id="tv-fato" class="mg-fix"><a href="http://fatoonline.com.br/tv-fato" target="_blank">TV Fato</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="ico-menu">
+            <a id="menu-open" href="#"><span class="glyphicon glyphicon-menu-hamburger"></span></a>
+            <a id="menu-close" href="#"><span class="glyphicon glyphicon-triangle-top"></span></a>
+        </div>
+    </nav>
+</header>
 	<div class="section sec-home">
 		<div class="container">
 			<img src="images/leao-home.png" class="logo-home">
@@ -221,6 +242,7 @@ programa.</p>
 	<script type="text/javascript" src="js/webflow.js"></script>
 	<script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
 	<script type="text/javascript" src="js/pessoal.js"></script>
+	<script type="text/javascript" src="js/menu.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 	<!--[if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
 </body>
