@@ -3,8 +3,7 @@ body, html{
 }
 
 .sec-home {
-	background-image: -webkit-linear-gradient(270deg, #053376, #053376);
-	background-image: linear-gradient(180deg, #053376, #053376);
+	background: #053376;
 	height: 100%;
 }
 
@@ -100,8 +99,7 @@ body, html{
 }
 
 .sec-computador {
-	background-image: -webkit-linear-gradient(270deg, #fff, #fff);
-	background-image: linear-gradient(180deg, #fff, #fff);
+	background: #ffffff;
 }
 
 .devices{
@@ -115,13 +113,11 @@ body, html{
 }
 
 .sec-malha {
-	background-image: -webkit-linear-gradient(270deg, #053376, #053376);
-	background-image: linear-gradient(180deg, #053376, #053376);
+	background: #053376;
 }
 
 .sec-erros {
-	background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2));
-	background-image: linear-gradient(180deg, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2));
+	background: #ffffff;
 }
 
 .sec-dicas {
